@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <AssemblyName>CowboyCafe.Data</AssemblyName>
     <RootNamespace>CowboyCafe.Data</RootNamespace>
+    <StartupObject />
   </PropertyGroup>
 
 </Project>
