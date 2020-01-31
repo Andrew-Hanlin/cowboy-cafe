@@ -4,13 +4,13 @@ using System.Collections.Generic;
 namespace CowboyCafe.Data
 {
     /// <summary>
-    /// A class representing the Cowpoke Chili entree
+    /// A class representing the Dakota Double Burger entree
     /// </summary>
     public class DakotaDoubleBurger
     {
         private bool cheese = true;
         /// <summary>
-        /// If the chili is topped with cheese
+        /// If the Dakota Double Burger is topped with cheese
         /// </summary>
         public bool Cheese
         {
@@ -20,7 +20,7 @@ namespace CowboyCafe.Data
 
         private bool bun = true;
         /// <summary>
-        /// If the chili is topped with bun
+        /// If the Dakota Double Burger is topped with bun
         /// </summary>
         /// 
         public bool Bun
@@ -31,7 +31,7 @@ namespace CowboyCafe.Data
 
         private bool ketchup = true;
         /// <summary>
-        /// If the chili is topped with sour cream
+        /// If the Dakota Double Burger is topped with sour cream
         /// </summary>
         public bool Ketchup
         {
@@ -41,7 +41,7 @@ namespace CowboyCafe.Data
 
         private bool mustard = true;
         /// <summary>
-        /// If the chili is topped with green onions
+        /// If the Dakota Double Burger is topped with green onions
         /// </summary>
         public bool Mustard
         {
@@ -51,7 +51,7 @@ namespace CowboyCafe.Data
 
         private bool pickle = true;
         /// <summary>
-        /// If the chili is topped with pickle
+        /// If the Dakota Double Burger is topped with pickle
         /// </summary>
         public bool Pickle
         {
@@ -62,7 +62,7 @@ namespace CowboyCafe.Data
 
         private bool tomato = true;
         /// <summary>
-        /// If the chili is topped with tomato
+        /// If the Dakota Double Burger is topped with tomato
         /// </summary>
         public bool Tomato
         {
@@ -72,7 +72,7 @@ namespace CowboyCafe.Data
 
         private bool lettuce = true;
         /// <summary>
-        /// If the chili is topped with lettuce
+        /// If the Dakota Double Burger is topped with lettuce
         /// </summary>
         /// 
         public bool Lettuce
@@ -83,7 +83,7 @@ namespace CowboyCafe.Data
 
         private bool mayo = true;
         /// <summary>
-        /// If the chili is topped with sour cream
+        /// If the Dakota Double Burger is topped with sour cream
         /// </summary>
         public bool Mayo
         {
@@ -93,7 +93,7 @@ namespace CowboyCafe.Data
 
       
         /// <summary>
-        /// The price of the chili
+        /// The price of the Dakota Double Burger
         /// </summary>
         public double Price
         {
@@ -104,7 +104,7 @@ namespace CowboyCafe.Data
         }
 
         /// <summary>
-        /// The calories of the chili
+        /// The calories of the Dakota Double Burger
         /// </summary>
         public uint Calories
         {
@@ -115,7 +115,7 @@ namespace CowboyCafe.Data
         }
 
         /// <summary>
-        /// Special instructions for the preparation of the chili
+        /// Special instructions for the preparation of the Dakota Double Burger
         /// </summary>
         public List<string> SpecialInstructions
         {

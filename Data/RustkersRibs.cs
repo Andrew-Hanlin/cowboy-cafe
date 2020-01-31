@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace CowboyCafe.Data
 {
     /// <summary>
-    /// A class representing the Cowpoke Chili entree
+    /// A class representing the Dakota Double Burger entree
     /// </summary>
     public class RustlersRibs
     {
@@ -18,7 +18,7 @@ namespace CowboyCafe.Data
         }
 
         /// <summary>
-        /// The calories of the chili
+        /// The calories of the Dakota Double Burger
         /// </summary>
         public uint Calories
         {
@@ -29,7 +29,7 @@ namespace CowboyCafe.Data
         }
 
         /// <summary>
-        /// Special instructions for the preparation of the chili
+        /// Special instructions for the preparation of the Dakota Double Burger
         /// </summary>
         public List<string> SpecialInstructions
         {
