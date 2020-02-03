@@ -6,48 +6,22 @@ namespace CowboyCafe.Data
     /// <summary>
     /// A class representing the Trail Burger entree
     /// </summary>
-    public class TrailBurger : Entree
+    public class PecosPulledPork : Entree
     {
-        private bool cheese = true;
-        /// <summary>
-        /// If the Trail Burger is topped with cheese
-        /// </summary>
-        public bool Cheese
-        {
-            get { return cheese; }
-            set { cheese = value; }
-        }
-
-        private bool bun = true;
+       
+        private bool bread = true;
         /// <summary>
         /// If the Trail Burger is topped with bun
         /// </summary>
         /// 
-        public bool Bun
+        public bool Bread
         {
-            get { return bun; }
-            set { bun = value; }
+            get { return bread; }
+            set { bread = value; }
         }
 
-        private bool ketchup = true;
-        /// <summary>
-        /// If the Trail Burger is topped with sour cream
-        /// </summary>
-        public bool Ketchup
-        {
-            get { return ketchup; }
-            set { ketchup = value; }
-        }
+       
 
-        private bool mustard = true;
-        /// <summary>
-        /// If the Trail Burger is topped with green onions
-        /// </summary>
-        public bool Mustard
-        {
-            get { return mustard; }
-            set { mustard = value; }
-        }
 
         private bool pickle = true;
         /// <summary>
@@ -68,7 +42,7 @@ namespace CowboyCafe.Data
         {
             get
             {
-                return 4.50;
+                return 5.88;
             }
         }
 
@@ -79,7 +53,7 @@ namespace CowboyCafe.Data
         {
             get
             {
-                return 288;
+                return 528;
             }
         }
 
@@ -92,15 +66,13 @@ namespace CowboyCafe.Data
             {
                 var instructions = new List<string>();
 
-                if (!bun) instructions.Add("hold bun");
-                if (!ketchup) instructions.Add("hold ketchup");
-                if (!mustard) instructions.Add("hold mustard");
                 if (!pickle) instructions.Add("hold pickle");
-                if (!cheese) instructions.Add("hold cheese");
+                if (!bread) instructions.Add("hold bread");
 
                 return instructions;
             }
         }
+
     }
 }
 
