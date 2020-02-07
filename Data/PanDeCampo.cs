@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CowboyCafe.Data
-{
+{ /// <summary>
+  /// the Pan De Campo are a side that comes in different sizes
+  /// </summary>
     public class PanDeCampo : Side
 
-    {
+    {  /// <summary>
+       /// callories for all sizes of Pan De Campo
+       /// </summary>
         public override uint Calories
         {
             get
@@ -31,9 +35,12 @@ namespace CowboyCafe.Data
 
         }
 
-    
 
 
+
+        /// <summary>
+        /// the price for each side for the Pan De Campo
+        /// </summary>
         public override double Price
         {
             get

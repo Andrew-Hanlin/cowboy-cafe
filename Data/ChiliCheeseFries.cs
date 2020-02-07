@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CowboyCafe.Data
-{
+{ /// <summary>
+  /// the Chili Cheese Fries are a side that comes in different sizes
+  /// </summary>
     public class ChiliCheeseFries : Side
 
     {
+        /// <summary>
+        /// callories for all sizes of Chili Cheese Fries
+        /// </summary>
         public override uint Calories
         {
             get
@@ -31,9 +36,11 @@ namespace CowboyCafe.Data
 
         }
 
-    
 
 
+        /// <summary>
+        /// the price for each side for the Chili Cheese Fries
+        /// </summary>
         public override double Price
         {
             get
