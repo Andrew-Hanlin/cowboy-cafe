@@ -32,7 +32,10 @@ namespace CowboyCafe.Data
                 }
             }
         }
-
+        public override string ToString()
+        {
+            return "Cowboy Coffee";
+        }
         public CowboyCoffee(){
             Ice = false;
         }

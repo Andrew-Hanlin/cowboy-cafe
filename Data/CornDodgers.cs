@@ -37,7 +37,10 @@ namespace CowboyCafe.Data
 
         }
 
-
+        public override string ToString()
+        {
+            return "Corn Dodgers";
+        }
 
         /// <summary>
         /// the price for each side for the Corn Dodgers

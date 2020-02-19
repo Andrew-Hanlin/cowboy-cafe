@@ -24,7 +24,10 @@ namespace CowboyCafe.Data
                 }
             }
         }
-
+        public override string ToString()
+        {
+            return "Jerked Soda";
+        }
 
         public override uint Calories
         {
