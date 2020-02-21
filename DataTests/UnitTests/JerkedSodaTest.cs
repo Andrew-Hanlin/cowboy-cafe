@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 using CowboyCafe.Data;
-
+/*
 namespace CowboyCafe.DataTests
 {
     public class JerkedSodaTest
@@ -19,12 +19,14 @@ namespace CowboyCafe.DataTests
             var names = Enum.GetNames(typeof(SodaFlavor));
             Assert.Contains(name, names);
         }
+
         [Fact]
         public void SodaFlavorEnumShouldHaveFiveValues()
         {
             var values = Enum.GetValues(typeof(SodaFlavor));
             Assert.Equal(5, values.Length);
         }
+
         [Theory]
         [InlineData("CreamSoda")]
         [InlineData("OrangeSoda")]
@@ -40,12 +42,14 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(flavor, soda.Flavor);
         }
+
         [Fact]
         public void ShouldBeIcedByDefault()
         {
             var soda = new JerkedSoda();
             Assert.True(soda.Ice);
         }
+
         [Fact]
         public void ShouldBeAbleToSetIce()
         {
@@ -55,12 +59,14 @@ namespace CowboyCafe.DataTests
             soda.Ice = true;
             Assert.True(soda.Ice);
         }
+
         [Fact]
         public void ShouldBeSmallByDefault()
         {
             var soda = new JerkedSoda();
             Assert.Equal(Size.Small, soda.Size);
         }
+
         [Fact]
         public void ShouldBeAbleToSetSize()
         {
@@ -72,6 +78,7 @@ namespace CowboyCafe.DataTests
             soda.Size = Size.Small;
             Assert.Equal(Size.Small, soda.Size);
         }
+
         [Theory]
         [InlineData(Size.Small, 1.59)]
         [InlineData(Size.Medium, 2.10)]
@@ -84,6 +91,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(price, soda.Price);
         }
+
         [Theory]
         [InlineData(Size.Small, 110)]
         [InlineData(Size.Medium, 146)]
@@ -96,6 +104,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(calories, soda.Calories);
         }
+
         [Theory]
         [InlineData(false)]
         [InlineData(true)]
@@ -110,4 +119,4 @@ namespace CowboyCafe.DataTests
         }
     }
 }
-
+*/

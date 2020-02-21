@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 using CowboyCafe.Data;
-
+/*
 namespace CowboyCafe.DataTests
 {
     public class CowboyCoffeeTest
     {
+
         [Fact]
         public void ShouldNotBeIcedByDefault()
         {
             var coffee = new CowboyCoffee();
             Assert.False(coffee.Ice);
         }
+
         [Fact]
         public void ShouldBeAbleToSetIce()
         {
@@ -23,12 +25,14 @@ namespace CowboyCafe.DataTests
             coffee.Ice = false;
             Assert.False(coffee.Ice);
         }
+
         [Fact]
         public void ShouldBeCaffinatedByDefault()
         {
             var coffee = new CowboyCoffee();
             Assert.False(coffee.Decaf);
         }
+
         [Fact]
         public void ShouldBeAbleToSetDecaf()
         {
@@ -38,12 +42,14 @@ namespace CowboyCafe.DataTests
             coffee.Decaf = false;
             Assert.False(coffee.Decaf);
         }
+
         [Fact]
         public void ShouldNotHaveRoomForCreamByDefault()
         {
             var coffee = new CowboyCoffee();
             Assert.False(coffee.RoomForCream);
         }
+
         [Fact]
         public void ShouldBeAbleToSetRoomForCream()
         {
@@ -53,12 +59,14 @@ namespace CowboyCafe.DataTests
             coffee.RoomForCream = false;
             Assert.False(coffee.RoomForCream);
         }
+
         [Fact]
         public void ShouldBeSmallByDefault()
         {
             var coffee = new CowboyCoffee();
             Assert.Equal(Size.Small, coffee.Size);
         }
+
         [Fact]
         public void ShouldBeAbleToSetSize()
         {
@@ -70,6 +78,7 @@ namespace CowboyCafe.DataTests
             coffee.Size = Size.Small;
             Assert.Equal(Size.Small, coffee.Size);
         }
+
         [Theory]
         [InlineData(Size.Small, 0.60)]
         [InlineData(Size.Medium, 1.10)]
@@ -82,6 +91,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(price, coffee.Price);
         }
+
         [Theory]
         [InlineData(Size.Small, 3)]
         [InlineData(Size.Medium, 5)]
@@ -94,6 +104,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(calories, coffee.Calories);
         }
+
         [Theory]
         [InlineData(false, false)]
         [InlineData(true, false)]
@@ -114,4 +125,4 @@ namespace CowboyCafe.DataTests
         }
     }
 }
-
+*/

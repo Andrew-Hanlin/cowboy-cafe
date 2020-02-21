@@ -14,6 +14,7 @@ namespace CowboyCafe.DataTests
             var water = new Water();
             Assert.True(water.Ice);
         }
+
         [Fact]
         public void ShouldBeAbleToSetIce()
         {
@@ -23,12 +24,14 @@ namespace CowboyCafe.DataTests
             water.Ice = true;
             Assert.True(water.Ice);
         }
+
         [Fact]
         public void ShouldNotHaveLemonByDefault()
         {
             var water = new Water();
             Assert.False(water.Lemon);
         }
+
         [Fact]
         public void ShouldBeAbleToSetLemon()
         {
@@ -38,12 +41,14 @@ namespace CowboyCafe.DataTests
             water.Lemon = false;
             Assert.False(water.Lemon);
         }
+
         [Fact]
         public void ShouldBeSmallByDefault()
         {
             var water = new Water();
             Assert.Equal(Size.Small, water.Size);
         }
+
         [Fact]
         public void ShouldBeAbleToSetSize()
         {
@@ -55,6 +60,7 @@ namespace CowboyCafe.DataTests
             water.Size = Size.Small;
             Assert.Equal(Size.Small, water.Size);
         }
+
         [Theory]
         [InlineData(Size.Small, 0.12)]
         [InlineData(Size.Medium, 0.12)]
@@ -67,6 +73,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(price, water.Price);
         }
+
         [Theory]
         [InlineData(Size.Small, 0)]
         [InlineData(Size.Medium, 0)]
@@ -79,6 +86,7 @@ namespace CowboyCafe.DataTests
             };
             Assert.Equal(calories, water.Calories);
         }
+
         [Theory]
         [InlineData(false, false)]
         [InlineData(true, false)]
