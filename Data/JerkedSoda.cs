@@ -26,7 +26,30 @@ namespace CowboyCafe.Data
         }
         public override string ToString()
         {
-            return "Jerked Soda";
+            string flavor;
+            switch (this.Flavor)
+            {
+                case SodaFlavor.CreamSoda:
+                    flavor = " Cream Soda";
+                    break;
+                case SodaFlavor.OrangeSoda:
+                    flavor = " Orange Soda";
+                    break;
+                case SodaFlavor.Sarsparilla:
+                    flavor = " Sarsparilla";
+                    break;
+                case SodaFlavor.BirchBeer:
+                    flavor = " Birch Beer";
+                    break;
+                case SodaFlavor.RootBeer:
+                    flavor = " Root Beer";
+                    break;
+                default:
+                    flavor = null;
+                    break;
+            }
+
+            return this.Size.ToString() +flavor+" Jerked Soda";
         }
 
         public override uint Calories

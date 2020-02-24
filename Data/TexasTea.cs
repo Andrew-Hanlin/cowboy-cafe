@@ -61,7 +61,9 @@ namespace CowboyCafe.Data
 
         public override string ToString()
         {
-            return "Texas Tea";
+            string sweet;
+            if (Sweet) { sweet = "Sweet"; } else { sweet = "Plane"; }
+            return this.Size.ToString() + " Texas " + sweet + " Tea";
         }
     }
 }

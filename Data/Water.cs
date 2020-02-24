@@ -40,7 +40,8 @@ namespace CowboyCafe.Data
         }
         public override string ToString()
         {
-            return "Water";
+            string si = this.Size.ToString();
+            return si+" Water";
         }
     }
 }

@@ -34,7 +34,9 @@ namespace CowboyCafe.Data
         }
         public override string ToString()
         {
-            return "Cowboy Coffee";
+            string decaf = "";
+            if (this.Decaf) { decaf = " Decaf"; }
+            return this.Size.ToString()+decaf+" Cowboy Coffee";
         }
         public CowboyCoffee(){
             Ice = false;

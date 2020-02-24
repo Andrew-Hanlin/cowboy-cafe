@@ -14,12 +14,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{39679114-1CC6-4A64-A4C8-FC205591A724}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Downloads\Class Diagram.pdf = ..\..\..\Downloads\Class Diagram.pdf
+		..\..\..\Downloads\Data Diagram.pdf = ..\..\..\Downloads\Data Diagram.pdf
+		..\..\..\Downloads\Userinterface.pdf = ..\..\..\Downloads\Userinterface.pdf
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{71920772-A145-442A-A676-67393D3F1289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{71920772-A145-442A-A676-67393D3F1289}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C3BFDB18-4ACD-495B-9CCE-675B7A8FD8FE} = {C3BFDB18-4ACD-495B-9CCE-675B7A8FD8FE}
+		{157E0096-37C4-4A66-80B0-337D690719F2} = {157E0096-37C4-4A66-80B0-337D690719F2}
 	EndProjectSection
 EndProject
 Global

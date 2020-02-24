@@ -62,9 +62,44 @@ namespace PointOfSale
 
         private void ChiliCheeseFries_Click(object sender, RoutedEventArgs e)
         {
+            OrderList.Items.Add(new ChiliCheeseFries());
+        }
+
+        private void BakedBeans_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new BakedBeans());
+        }
+
+        private void CowboyCoffee_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new CowboyCoffee());
+        }
+
+        private void Water_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new Water());
+        }
+
+        private void JerkedSoda_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new JerkedSoda());
+        }
+
+        private void TexasTea_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new TexasTea());
+        }
+
+        private void PanDeCampo_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new PanDeCampo());
 
         }
 
-       
+        private void CornDodgers_Click(object sender, RoutedEventArgs e)
+        {
+            OrderList.Items.Add(new CornDodgers());
+
+        }
     }
 }
