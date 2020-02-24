@@ -44,7 +44,7 @@ namespace CowboyCafe.Data
         }
         public override string ToString()
         {
-            return "Rustker's Ribs";
+            return "Rustler's Ribs";
         }
     }
 }

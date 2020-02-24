@@ -37,7 +37,7 @@ namespace CowboyCafe.Data
         }
         public override string ToString()
         {
-            return this.Size.ToString()+ "Chilli Cheese Fries";
+            return this.Size.ToString()+ " Chili Cheese Fries";
         }
 
 
