@@ -15,6 +15,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{39679114-1CC6-4A64-A4C8-FC205591A724}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Downloads\Data Diagram.pdf = ..\..\..\Downloads\Data Diagram.pdf
+		New Text Document.txt = New Text Document.txt
 		..\..\..\Downloads\Userinterface.pdf = ..\..\..\Downloads\Userinterface.pdf
 	EndProjectSection
 EndProject
