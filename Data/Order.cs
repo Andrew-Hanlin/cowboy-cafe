@@ -18,6 +18,13 @@ namespace CowboyCafe.Data
 
         public uint OrderNumber { get; } = lastOrdernumber + 1;
 
+
+        public IEnumerable<IOrderItem> Items => items;
+
+
+
+
+
         public double Subtotal {
             get {
                 double total = 0;
@@ -28,15 +35,21 @@ namespace CowboyCafe.Data
             }
 
         }
-        public IEnumerable<IOrderItem> Items =>items;
+       
             
         public void Add(IOrderItem item)
         {
             if (item != null) { items.Add(item); }
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Items"));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Subtotal"));
+
         }
         public void Remove(IOrderItem item) {
             if (item != null) { items.Remove(item); }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Items"));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Subtotal"));
+
+
         }
-   }
+    }
 }
