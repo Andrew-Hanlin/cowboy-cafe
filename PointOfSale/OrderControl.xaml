@@ -84,6 +84,9 @@
             <TextBlock TextAlignment="Center" Background="Aquamarine">order</TextBlock>
             <ListBox  Name="OrderList"></ListBox>
         </StackPanel>
-        
+
+        <Border Name="Container" Grid.Row="1">
+            <local:MenueItemSkection/>
+        </Border>
     </Grid>
 </UserControl>

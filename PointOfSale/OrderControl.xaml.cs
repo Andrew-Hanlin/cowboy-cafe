@@ -185,10 +185,27 @@ namespace PointOfSale
         /// /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
+        //private void CornDodgers_Click(object sender, RoutedEventArgs e)
+        //{
+        //    OrderList.Items.Add(new CornDodgers());
+
+        //}
+
+
         private void CornDodgers_Click(object sender, RoutedEventArgs e)
         {
-            OrderList.Items.Add(new CornDodgers());
+            Container.Child = new MenueItemSkection();
 
+        }
+
+
+
+
+
+
+        public void swapScreen (FrameworkElement element)
+        {
+            Container.Child = element;
         }
     }
 }
